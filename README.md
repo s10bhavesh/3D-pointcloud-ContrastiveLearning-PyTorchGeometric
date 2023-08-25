@@ -14,7 +14,7 @@
 - I select 5k data points as otherwise I run out of memory on Colab
 
 ## Model
-- Different choices for Point Cloud Feature-Learning layers (PointNet, PointNet++, EdgeConv, PointTransformer, ...)
+- Different choices for Point Cloud Feature-Learning layers (PointNet, PointNet++, EdgeConv, PointTransformer, etc.
 - In PyTorch geometric we find an implementation of DynamicEdgeConv
 - It uses the parameter k to detect the nearest neighbors which form a subgraph
 - If you have many points, you can also sample a subset
